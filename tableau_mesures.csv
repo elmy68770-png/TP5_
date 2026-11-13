@@ -1,0 +1,6 @@
+Algorithme,Tableau,Temps_s,N,Complexite_moyenne,Complexite_pire_cas,Commentaire
+Tri_fusion,Aleatoire,0.002412,20000,O(n log n),O(n log n),Stable et regulier
+Tri_fusion,Deja_trie,0.001198,20000,O(n log n),O(n log n),Toujours aussi rapide
+Tri_rapide,Aleatoire,0.001845,20000,O(n log n),O(n^2),Tres rapide en moyenne
+Tri_rapide,Deja_trie,0.048731,5000,O(n log n),O(n^2),PIRE CAS - partition 0 / n-1 car pivot = dernier element
+Conclusion,Tri rapide ralenti sur deja trie,Tri fusion plus sur,Eviter pivot dernier element ou utiliser pivot aleatoire
